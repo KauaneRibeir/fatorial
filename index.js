@@ -14,3 +14,4 @@ console.log(`O fatorial de ${num} é ${fatorial}.`)
 
 }
 process.exit()
+
