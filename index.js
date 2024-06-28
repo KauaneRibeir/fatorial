@@ -12,5 +12,7 @@ if (isNaN(num)|| num < 0){
     fatorial *= i;
     }
 console.log(`O fatorial de ${num} é ${fatorial}.`)
+
 }
 process.exit()
+
