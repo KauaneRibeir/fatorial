@@ -3,7 +3,6 @@
 const prompt = require("prompt-sync")({ sigint: true });
 let num = prompt (" Digite um número ")
 
-
 if (isNaN(num)|| num < 0){
     console.log("Numero invalido, escolha outro numero")
 }else{
@@ -15,5 +14,3 @@ console.log(`O fatorial de ${num} é ${fatorial}.`)
 
 }
 process.exit()
-
-
